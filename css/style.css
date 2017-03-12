@@ -1,4 +1,78 @@
-html
+#menu 
 {
-    background-color: rgba(39, 172, 190, 0.9)
+    position: relative;
+    background-color: grey;
+    float:left;
+    width: 100vw;
+    text-align: center; 
+    
+}
+.menu-item
+{
+   display: inline-block;
+   font-family: monospace;
+   padding: 40px;
+   font-size: 40px;
+    
+   
+}
+.menu-item>a
+{
+    text-decoration:none;
+    color: white;
+    
+}
+
+#header
+{
+    position: relative;
+    
+   
+}
+
+#header > img
+{
+    width: 100%
+}
+
+#header >h1
+{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 700%;
+    width: 100vw;
+    top: 700px;
+    
+    
+}
+#about
+{
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    font-size: 200%;
+    bottom: 100
+    
+}
+footer
+{
+    position: relative;
+    height: 300px;
+    background-color: grey;
+    text-align: center;
+    font-family: monospace;
+    font-size: 200%;
+    color: white;
+    
+}
+address > a
+{
+    text-decoration: none;
+    color: white;
+}
+#contact-header
+{
+    padding-top: 30px;
 }
